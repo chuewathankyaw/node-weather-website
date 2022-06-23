@@ -21,7 +21,9 @@ const forecast = (latitude, longitude, callback) => {
           body.current.temperature +
           " degress out. There is a " +
           body.current.feelslike +
-          " degress out."
+          " degress out." +
+          body.current.cloudcover +
+          "cloud today."
       );
     }
   });
